@@ -78,6 +78,25 @@ ros-jazzy-interactive-marker-twist-server = "*"
 # gazebo_ros = "*"
 
 
+# if these can be used this year
+# (ie: https://github.com/fjrodl/PDDL-course/blob/7c3b5e9b8bab19a1bf608876de2ead7551a6984f/Scripts/day3_jazzy.sh
+# instead of https://github.com/fjrodl/PDDL-course/blob/7c3b5e9b8bab19a1bf608876de2ead7551a6984f/Scripts/jazzy_dependencies_installation.sh)
+
+# ros-jazzy-turtlebot3 = "*"
+# ros-jazzy-turtlebot3-bringup = "*"
+# ros-jazzy-turtlebot3-cartographer = "*"
+# ros-jazzy-turtlebot3-description = "*"
+# ros-jazzy-turtlebot3-example = "*"
+# ros-jazzy-turtlebot3-fake-node = "*"
+# ros-jazzy-turtlebot3-gazebo = "*"
+# ros-jazzy-turtlebot3-msgs = "*"
+# ros-jazzy-turtlebot3-navigation2 = "*"
+# ros-jazzy-turtlebot3-node = "*"
+# ros-jazzy-turtlebot3-simulations = "*"
+# ros-jazzy-turtlebot3-teleop = "*"
+
+
+
 [target.linux-64.dependencies]
 # from https://github.com/fjrodl/PDDL-course/blob/7c3b5e9b8bab19a1bf608876de2ead7551a6984f/Scripts/jazzy_dependencies_installation.sh#L47
 # other platforms will unfortunately have to build plansys from source
