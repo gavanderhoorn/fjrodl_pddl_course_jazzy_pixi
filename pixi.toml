@@ -2,7 +2,7 @@
 name = "fjrodl_pddl_course_jazzy_pixi"
 channels = ["https://prefix.dev/robostack-jazzy", "https://prefix.dev/conda-forge"]
 platforms = ["linux-64", "osx-64"]
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 # Base ROS dependencies
