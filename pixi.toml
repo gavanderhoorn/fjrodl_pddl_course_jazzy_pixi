@@ -139,6 +139,7 @@ ros-jazzy-test-msgs = "*"
 
 [tasks]
 fetch = {cmd = "vcs import --input repos.repos src", description = "Fetch packages"}
+fetch_osx64 = {cmd = "vcs import --input repos-osx-64.repos src", description = "Fetch packages (for macOS)"}
 build = {cmd = "colcon build", description = "Build the ROS workspace"}
 ws-clean = {cmd = "rm -rf build install log", description = "Clean build artifacts (build, install, log directories)"}
 clean-build = [{ task = "ws-clean" }, { task = "build" }]

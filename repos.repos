@@ -3,9 +3,3 @@ repositories:
     type: git
     url: https://github.com/fjrodl/PDDL-course.git
     version: 2026_dev
-
-  # for macOS (but untested, and branch is humble based)
-  #fmrico/popf:
-  #  type: git
-  #  url: https://github.com/gavanderhoorn/popf.git
-  #  version: c6ab15794ac2bb458bba003a1e1109f107416519  # humble-devel-clang
