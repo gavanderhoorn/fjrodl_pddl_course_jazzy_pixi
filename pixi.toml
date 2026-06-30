@@ -21,12 +21,6 @@ cmake = "3.28.*"
 # should this be Linux only?
 ccache = "*"
 
-# for popf
-bison = "*"
-coin-or-cbc = "*"
-coin-or-cgl = "*"
-flex = "*"
-
 # Workspace dependencies
 ros-jazzy-action-msgs = "*"
 ros-jazzy-ament-cmake = "*"
@@ -106,6 +100,41 @@ ros-jazzy-plansys2-terminal = "*"
 ros-jazzy-plansys2-tests = "*"
 ros-jazzy-plansys2-tools = "*"
 
+
+[target.osx-64.dependencies]
+# for popf (linux-64 can depend on a binary)
+bison = "*"
+coin-or-cbc = "*"
+coin-or-cgl = "*"
+flex = "*"
+
+# plansys dependencies
+eigen = "*"
+pytest = "*"
+qt-main = "*"
+readline = "*"
+xorg-libx11 = "*"
+xorg-libxext = "*"
+# plansys ROS dependencies
+ros-jazzy-ament-cmake-gtest = "*"
+ros-jazzy-ament-copyright = "*"
+ros-jazzy-ament-flake8 = "*"
+ros-jazzy-ament-index-cpp = "*"
+ros-jazzy-ament-lint-auto = "*"
+ros-jazzy-ament-pep257 = "*"
+ros-jazzy-behaviortree-cpp = "*"
+ros-jazzy-eigen3-cmake-module = "*"
+#ros-jazzy-popf = "*"  # will be built from source
+ros-jazzy-python-cmake-module = "*"
+ros-jazzy-qt-gui-cpp = "*"
+ros-jazzy-rclcpp-action = "*"
+ros-jazzy-rclcpp-cascade-lifecycle = "*"
+ros-jazzy-rclcpp-lifecycle = "*"
+ros-jazzy-ros2run = "*"
+ros-jazzy-rqt-gui = "*"
+ros-jazzy-rqt-gui-cpp = "*"
+ros-jazzy-std-srvs = "*"
+ros-jazzy-test-msgs = "*"
 
 
 [tasks]
