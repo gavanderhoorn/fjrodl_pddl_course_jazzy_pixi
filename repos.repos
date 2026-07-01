@@ -9,17 +9,3 @@ repositories:
   #  type: git
   #  url: https://github.com/gavanderhoorn/popf.git
   #  version: c6ab15794ac2bb458bba003a1e1109f107416519  # humble-devel-clang
-
-  # only needed when NOT using TB3 binaries (as in 'Scripts/jazzy_dependencies_installation.sh')
-  turtlebot3:
-    type: git
-    url: https://github.com/MOGI-ROS/turtlebot3
-    version: 0e2258ef24182145eaacb6a6fd7687e31c8577fd  # mogi-ros2
-  turtlebot3_msgs:
-    type: git
-    url: https://github.com/MOGI-ROS/turtlebot3_msgs
-    version: 21a58b5cee57a8e5f1d1b5b2f7426d2eb0f3c76d  # ros2
-  turtlebot3_simulations:
-    type: git
-    url: https://github.com/MOGI-ROS/turtlebot3_simulations
-    version: f63b3c5305a3b79648dcc1216c065d6c7f9d8694  # new_gazebo

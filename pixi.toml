@@ -69,31 +69,21 @@ ros-jazzy-nav2-map-server = "*"
 ros-jazzy-nav2-bt-navigator = "*"
 ros-jazzy-nav2-bringup = "*"
 ros-jazzy-interactive-marker-twist-server = "*"
-# duplicates
-#ros-jazzy-cartographer-ros = "*"
-#ros-jazzy-slam-toolbox = "*"
 
 
-# The following packages were not found:
-# gazebo_ros = "*"
-
-
-# if these can be used this year
-# (ie: https://github.com/fjrodl/PDDL-course/blob/7c3b5e9b8bab19a1bf608876de2ead7551a6984f/Scripts/day3_jazzy.sh
-# instead of https://github.com/fjrodl/PDDL-course/blob/7c3b5e9b8bab19a1bf608876de2ead7551a6984f/Scripts/jazzy_dependencies_installation.sh)
-
-# ros-jazzy-turtlebot3 = "*"
-# ros-jazzy-turtlebot3-bringup = "*"
-# ros-jazzy-turtlebot3-cartographer = "*"
-# ros-jazzy-turtlebot3-description = "*"
-# ros-jazzy-turtlebot3-example = "*"
-# ros-jazzy-turtlebot3-fake-node = "*"
-# ros-jazzy-turtlebot3-gazebo = "*"
-# ros-jazzy-turtlebot3-msgs = "*"
-# ros-jazzy-turtlebot3-navigation2 = "*"
-# ros-jazzy-turtlebot3-node = "*"
-# ros-jazzy-turtlebot3-simulations = "*"
-# ros-jazzy-turtlebot3-teleop = "*"
+# from: https://github.com/fjrodl/PDDL-course/blob/7c3b5e9b8bab19a1bf608876de2ead7551a6984f/Scripts/day3_jazzy.sh
+ros-jazzy-turtlebot3 = "*"
+ros-jazzy-turtlebot3-bringup = "*"
+ros-jazzy-turtlebot3-cartographer = "*"
+ros-jazzy-turtlebot3-description = "*"
+ros-jazzy-turtlebot3-example = "*"
+ros-jazzy-turtlebot3-fake-node = "*"
+ros-jazzy-turtlebot3-gazebo = "*"
+ros-jazzy-turtlebot3-msgs = "*"
+ros-jazzy-turtlebot3-navigation2 = "*"
+ros-jazzy-turtlebot3-node = "*"
+ros-jazzy-turtlebot3-simulations = "*"
+ros-jazzy-turtlebot3-teleop = "*"
 
 
 
