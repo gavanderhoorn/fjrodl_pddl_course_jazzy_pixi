@@ -2,7 +2,7 @@ repositories:
   PDDL-course:
     type: git
     url: https://github.com/fjrodl/PDDL-course.git
-    version: db5e3440337a23c39604addbaf873c266f4c5033  # HEAD as of 2026-06-29
+    version: 2026_dev
 
   # for macOS (but untested, and branch is humble based)
   #fmrico/popf:
